@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javascript</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <style>
+        .read_div{
+            text-align: right;
+            cursor: pointer;
+        }
+        #label_author{
+            margin-left: 10px;
+        }
+        .ul_list li{
+            list-style-type: none;
+            float: left;
+            padding: 5px;
+            background-color: #d43c3c;
+        }
+    </style>
+    <script>
+          $(document).ready(function () {
+                //获取文章目录
+              getItem(1);
+                function getItem(type) {
+                     $.getJSON("assets/txt/html_css.txt",function (data) {
+                        $(".col-md-9").empty();
+                         for(var a=0;a<data.length;a++){
+                               var item=data[a];
+                         if(type==1){
+                             if(a>2){
+                                 return;
+                             }
+                         }
+                         if(type==2){
+                             if(a<3||a>5){
+                                continue;
+                             }
+                         }
+
+                         var node=document.createElement("div");
+                         node.setAttribute("class","blog-main");
+                          var nodeTitle=document.createElement("div");
+                         nodeTitle.setAttribute("class","heading-blog");
+                         nodeTitle.innerText=item.title;
+
+                         var nodeInFo=document.createElement("div");
+                         nodeInFo.setAttribute("class","blog-info");
+
+                          var nodeInFoSpan_a=document.createElement("span");
+                         nodeInFoSpan_a.setAttribute("class","label label-danger");
+                         nodeInFoSpan_a.innerText=item.time;
+                          var nodeInFoSpan_b=document.createElement("span");
+                         nodeInFoSpan_b.setAttribute("class","label label-primary");//label-danger
+                         nodeInFoSpan_b.setAttribute("id","label_author");
+                         nodeInFoSpan_b.innerText=item.author;
+                         nodeInFo.appendChild(nodeInFoSpan_a);
+                         nodeInFo.appendChild(nodeInFoSpan_b);
+
+                          var nodeDesc=document.createElement("div");
+                         nodeDesc.setAttribute("class","blog-txt");
+                         nodeDesc.innerText=item.desc;
+
+                         var nodeInFoSpan_read_div=document.createElement("div");
+                         nodeInFoSpan_read_div.setAttribute("class","read_div");
+                         var nodeInFoSpan_read=document.createElement("span");
+                         nodeInFoSpan_read.setAttribute("class","label label-danger");//label-danger
+                         nodeInFoSpan_read.innerHTML="<a href='"+item.link+"' target='_blank' style='color: #ffffff;'>阅读全文</a>";
+                         nodeInFoSpan_read_div.appendChild(nodeInFoSpan_read);
+                         node.appendChild(nodeTitle);
+                          if(item.image!="1"){
+                                var imgNode=document.createElement("img");
+                               imgNode.setAttribute("class","img-responsive img-rounded");
+                               imgNode.setAttribute("src",item.image);
+                               node.appendChild(imgNode);
+                         }
+                           node.appendChild(nodeInFo);
+                          node.appendChild(nodeDesc);
+                          node.appendChild(nodeInFoSpan_read_div);
+                         $(".col-md-9").append(node);
+                     };
+
+                });
+                }
+                //点击页码
+
+              var clickPage=1;
+               $(".page_li_1").click(function () {
+                    selected_1();
+             });
+             $(".page_li_2").click(function () {
+                    selected_2();
+             });
+         $(".page_li_pre").click(function () {
+                    selected_pre();
+             });
+                $(".page_li_next").click(function () {
+                    selected_next();
+                });
+
+                function selected_1() {
+                    clickPage=1;
+                      $(".page_li_1").attr("class","active page_li_1");
+                     $(".page_li_2").attr("class","page_li_2");
+                     $(".page_li_3").attr("class","page_li_3");
+                     $(".page_li_4").attr("class","page_li_4");
+                     $(".page_li_5").attr("class","page_li_5");
+                      $(".page_li_6").attr("class","page_li_6");
+                      $(".page_li_7").attr("class","page_li_7");
+                      $(".page_li_8").attr("class","page_li_8");
+                      $(".page_li_9").attr("class","page_li_9");
+                      $(".page_li_10").attr("class","page_li_10");
+                      $(".page_li_11").attr("class","page_li_11");
+                      $(".page_li_12").attr("class","page_li_12");
+                     $(".page_li_pre").attr("class","disabled page_li_pre");
+                     $(".page_li_next").attr("class","page_li_next");
+                     getItem(1);
+                }
+
+                function selected_2() {
+                    clickPage=2;
+                      $(".page_li_2").attr("class","active page_li_2");
+                     $(".page_li_1").attr("class","page_li_1");
+                     $(".page_li_3").attr("class","page_li_3");
+                     $(".page_li_4").attr("class","page_li_4");
+                     $(".page_li_5").attr("class","page_li_5");
+                       $(".page_li_6").attr("class","page_li_6");
+                      $(".page_li_7").attr("class","page_li_7");
+                      $(".page_li_8").attr("class","page_li_8");
+                      $(".page_li_9").attr("class","page_li_9");
+                      $(".page_li_10").attr("class","page_li_10");
+                      $(".page_li_11").attr("class","page_li_11");
+                      $(".page_li_12").attr("class","page_li_12");
+                     $(".page_li_pre").attr("class","page_li_pre");
+                     $(".page_li_next").attr("class","disabled page_li_next");
+                     getItem(2);
+                }
+
+
+                function selected_pre() {
+                     if(clickPage>1){
+                           clickPage--;
+                     }
+                     switch (clickPage){
+                         case 2:
+                             selected_2();
+                             break;
+                         case 1:
+                             selected_1();
+                             break;
+                     }
+
+                }
+
+                function selected_next() {
+                     if(clickPage<2){
+                           clickPage++;
+                     }
+                     switch (clickPage){
+                         case 2:
+                             selected_2();
+                             break;
+                     }
+                }
+          });
+    </script>
+</head>
+<body>
+<section>
+    <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+
+                </div>
+
+            </div>
+         <nav>
+                        <ul class="pagination"><!--class="pagination"-->
+                            <li class="disabled page_li_pre"><a href="#"><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous</span></a></li>
+                            <li class="active page_li_1"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                            <li class="page_li_2"><a href="#">2 <span class="sr-only"></span></a></li>
+                            <li class="page_li_next"><a href="#"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next</span></a></li>
+                        </ul>
+                    </nav>
+    </div>
+
+</section>
+</body>
+</html>

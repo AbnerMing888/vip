@@ -1,0 +1,25 @@
+[{
+	"title": "浅谈XML语言(三)",
+	"desc": "这一篇来谈一谈XML的约束吧，毕竟XML这家伙太随意了，无法无天也不是很好，适当的约束起来，对于一个团队开发中还是有一定的必要的，按照一定的约束来，既能节省一定的时间，也能提高开发效率。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"time": "2016-09-05",
+	"link": "http://blog.csdn.net/ming_147/article/details/52441675"
+}, {
+	"title": "浅谈XML语言(二)",
+	"desc": "当然了，该注意的还是要注意的，无规矩不成方圆吗，XML和HTML还是有一定的区别的，首先呢，一定要注意区分大小写，<node>和<NODE>还是不一样的，还有就是一定要有正确的关闭方式，也就是说有开始就要有结尾，有始有终嘛。对于空格来说，HTML会把相邻的很多空格读成一个空格，而XML则不然，有几个就是几个。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"time": "2016-09-05",
+	"link": "http://blog.csdn.net/ming_147/article/details/52440459"
+}, {
+	"title": "浅谈XML语言(一)",
+	"desc": "XML是什么鬼？对于搞Android开发的同志那真是再熟悉不过了，xml就是我们的视图，布局，View，这里我要说的是独立于Android之外的XML。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"time": "2016-09-02",
+	"link": "http://blog.csdn.net/ming_147/article/details/52414126"
+}]

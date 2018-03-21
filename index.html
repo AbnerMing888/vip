@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="AbnerMing的专属博客，Android技术聚集地，Java技术聚集地" />
+    <meta name="author" content="AbnerMing" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>AbnerMing的专属博客</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+      <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+           $(document).ready(function () {
+
+               //获取文章目录
+               var isClick=0;
+                $.getJSON("assets/txt/file_name.txt",function (data) {
+                        $("#list_group").empty();
+
+                     $.each(data, function (i, item) {
+                          var node=document.createElement("li");
+                          node.setAttribute("class","list-group-item");
+                          var nodeSpan=document.createElement("span");
+                          nodeSpan.setAttribute("class","badge");
+                          nodeSpan.innerText=item.file_num;
+                          node.innerText=item.file_name;
+                          node.appendChild(nodeSpan);
+                          $("#list_group").append(node);
+                          $(".list-group-item").click(function () {
+                              if(isClick==0){
+                                   if(item.file_id==0){
+                                          $(".money_frame").attr("src","android.html");
+                                   }else if(item.file_id==1){
+                                          $(".money_frame").attr("src","java.html");
+                                   }else if(item.file_id==2){
+                                          $(".money_frame").attr("src","kotlin.html");
+                                   }else if(item.file_id==3){
+                                          $(".money_frame").attr("src","javascript.html");
+                                   }else if(item.file_id==4){
+                                          $(".money_frame").attr("src","html_css.html");
+                                   }else if(item.file_id==5){
+                                          $(".money_frame").attr("src","abner.html");
+                                   }else if(item.file_id==6){
+                                          $(".money_frame").attr("src","other.html");
+                                   }
+                                   isClick++;
+                              }
+                              setTimeout(function () {
+                                  isClick=0;
+                              },500);
+                          });
+                     });
+                })
+                
+               $(".btn").click(function () {
+                  var seachText=$(".form-control").val();
+                  if(seachText!=null&&seachText!=""){
+                    $(".money_frame").attr("scrolling","yes");
+                    localStorage.setItem("seach",seachText);
+                    $(".money_frame").attr("src","all.html");
+                  }
+               });
+
+                $(".img-circle").click(function () {
+                    window.open("http://www.weekandroid.cn/week/about/about_me.html")
+                });
+           });
+    </script>
+</head>
+<body>
+
+
+    <section class="header-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="assets/img/abnerming.png" class="img-circle img-responsive" />
+                </div>
+                <div class="col-md-5 text-center">
+                    <h1><strong>AbnerMing</strong></h1>
+                    <h4>的专属博客</h4>
+                </div>
+                <div class="col-md-5">
+                    <h3>我是谁:</h3>
+                    不用猜了，一个不入流的程序员就是我！没多大本事，就会敲几行代码，会点Android,会点java，会点python，会点php,会点javascript,会点……
+                    oh,No!我到底会什么呢？我是一个逗比，一个向全栈看齐的程序员，忘了，是不入流的程序员。
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--HOME SECTION END
+       一周推荐  Android向导  github  csdn 公众号
+    -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 spon-txt">
+                    <span>独立运营网站和平台: </span>
+                </div>
+                <div>
+                <div class="col-md-10" style="width: 100%">
+                     <a href="http://www.weekandroid.cn" target="_blank"><img src="assets/img/abner_index_f.png" alt="Android一周推荐"   class="abner_index_1"/></a>
+                    <a href="http://www.androidguide.cn" target="_blank"><img src="assets/img/abner_index_g.png" alt="Android向导"  class="abner_index_1"/></a>
+                    <a href="https://github.com/ming723" target="_blank"><img src="assets/img/abner_index_e.png"  alt="Github"  class="abner_index_1"/></a>
+                    <a href="http://blog.csdn.net/ming_147" target="_blank"><img src="assets/img/abner_index_d.png" alt="csdn博客"  class="abner_index_1"/></a>
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI1NTU4MjU3OA==#wechat_redirect" target="_blank"><img src="assets/img/abner_index_h.png" alt="微信公众号" class="abner_index_1" /></a>
+                </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+    <!--SPONSORS SECTION END-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                     <div class="div_money_desc">
+                          <iframe class="money_frame" src="android.html" style="width: 100%;min-height: 1400px;max-height: 1400px"
+                        frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">文章搜索</h3>
+                            </div>
+                            <div class="panel-body">
+                                <input type="text" class="form-control" placeholder="搜索内容……" />
+                                <hr />
+                                <span class="btn btn-danger btn-sm btn-block">搜索</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="list-group">
+                        <li class="list-group-item" style="background-color: #ffffff;cursor: auto;color: #222222">
+                            <strong>文章目录</strong>
+                        </li>
+
+                    </ul>
+                    <ul class="list-group" id="list_group">
+
+                    </ul>
+                    <br />
+
+                    <ul class="list-group" >
+                        <li class="list-group-item" style="background-color: #ffffff;cursor: auto;color: #222222">个人微信公众号
+                        </li>
+                        <li class="list-group-item" style="background-color: #ffffff;cursor: auto">
+                                <img src="assets/img/wx_me.png" class="img-responsive" />
+                        </li>
+                        <li class="list-group-item" style="background-color: #ffffff;cursor: auto;color: #222222">Android一周推荐App下载
+                        </li>
+                        <li class="list-group-item" style="background-color: #ffffff;cursor: auto">
+                                <img src="assets/img/week_load.png" class="img-responsive" />
+                        </li>
+                    </ul>
+                    <br />
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <hr />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center set-foot" >
+                &copy 2018 AbnerMing | <a href="http://www.androidguide.cn/" target="_blank" title="Android向导" style="color: #d43c3c">Android向导</a> | <a href="http://www.weekandroid.cn/" title="Android一周推荐" target="_blank" style="color: #d43c3c">Android一周推荐</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

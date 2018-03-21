@@ -1,0 +1,200 @@
+[{
+		"title": "Android使用百分比对屏幕完美适配",
+		"time": "2018年02月27日 17:35:11",
+		"desc": "hello,大家好，开发当中，对于屏幕适配你是如何做的呢？采用权重，还是采用不同分辨率下的dimens文件，还是代码进行计算，还是……？比如,UI的设计图，以1080*1920为参照，某个控件距离左边10px,那么在众多的分辨率手机中，你是如何设置的呢？",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "0",
+		"link": "http://blog.csdn.net/ming_147/article/details/79391217"
+	},
+	{
+		"title": "自定义View之贪吃蛇游戏的实现",
+		"time": "2018年01月23日 10:08:44",
+		"desc": "最近自定义View的文章分享了有几篇了，上一篇是自定义了一个数字华容道的游戏，这一篇同样是一个小游戏，我们最熟悉的贪吃蛇小游戏，用自定义View的方式来实现。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "1",
+		"link": "http://blog.csdn.net/ming_147/article/details/79136115"
+	},
+	{
+		"title": " 最强大脑之《数字华容道》游戏Android端的具体实现",
+		"time": "2018年01月22日 11:33:39",
+		"desc": "前两天粘贴出来了地址，不知道大家下载了没有，如果玩的话，是不是发现了几个潜在的问题，如果按完开始键后，不停的点击上一关或者下一关就会出现应用闪退的情况，这种情况是toast的问题，目前已经修复，当然了还有，滑着滑着，有的格子就不见了的问题，这种问题，虽然很少见，但是确实出现过，它是因为滑动的距离过长，本来是走一格，一不小心多走了一格，这就尴尬了，我觉得最大的问题就是滑着不是很灵敏，有时滑不动，这样那样潜在的问题是很多了，毕竟这个简单的游戏，仅仅用了十几个小时开发出来的，问题是在所难免的，大家有兴趣的可以去优化。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "2",
+		"link": "http://blog.csdn.net/ming_147/article/details/79127144"
+	},
+	{
+		"title": "自定义View之（股票或基金）行情分时图的绘制",
+		"time": "2018年01月09日 11:26:30",
+		"desc": "之前自定义View文章写过好几篇了，像折线图的绘制，及行情蜡烛图的绘制，都有写过，但对于分时图的绘制，还没有总结过，正好，最近公司不是很忙，索性就重新的画一下及总结一下，可能绘制的比较简单，但基本上该包含的也都有所涉及，比如触摸十字光标，价格时间的显示都有。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "3",
+		"link": "http://blog.csdn.net/ming_147/article/details/79010120"
+	},
+	{
+		"title": "对RecyclerView的Adapter进行抽取",
+		"time": "2017年12月29日 16:17:14",
+		"desc": "当项目当中遇到了很多个页面都要用到列表的时候，我们可能会用到ListView又或者用到RecyclerView，其实不管用到哪个控件来实现，adapter和hodler是必须要用到的，每写一个ListView或者RecyclerView，都要去实现一个adapter和hodler，显然有很多重复的代码，那么能不能把共有的方法抽取出来呢，显然是可以的，ListView的抽取以前写过，地址是：http://blog.csdn.net/ming_147/article/details/62892727，这边文章主要是叙述RecyclerView的抽取",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "4",
+		"link": "http://blog.csdn.net/ming_147/article/details/78932613"
+	},
+	{
+		"title": "理解 RxJava 中的 Single 和 Completable",
+		"time": "2017年04月20日 17:52:15",
+		"desc": "在大多数 RxJava 示例代码和教程中出现最为频繁的一个类 —— Observable，它是产生响应式编程魔力的关键。它的用法很简单，只需要跟踪 3 个事件 —— onNext，onError和onCompleted就可以应用上百个操作符来实现自己的表达式。那么为什么你还需要了解其他东西？",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "5",
+		"link": "http://blog.csdn.net/ming_147/article/details/70279217"
+	},
+	{
+		"title": "走进Android Binder机制（驱动篇下）",
+		"time": "2017年03月24日 17:25:03",
+		"desc": "binder_mmap函数对应了mmap系统调用的处理，这个函数也是Binder驱动的精华所在（这里说的binder_mmap函数也包括其内部调用的binder_update_page_range函数，见下文）。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "6",
+		"link": "http://blog.csdn.net/ming_147/article/details/65633848"
+	},
+	{
+		"title": " 走进Android Binder机制（驱动篇上）",
+		"time": "2017年03月24日 17:15:57",
+		"desc": "这里面牵涉到好几个层次，每一层都有一些模块和机制需要理解。这部分内容预计会分为三篇文章来讲解。本文是第一篇，首先会对整个Binder机制做一个架构性的讲解，然后会将大部分精力用来讲解Binder机制中最核心的部分：Binder驱动的实现。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "7",
+		"link": "http://blog.csdn.net/ming_147/article/details/65633571"
+	},
+	{
+		"title": " ListView的“终极优化”，打造你的万能适配器",
+		"time": "2017年03月17日 17:42:11",
+		"desc": "ListView不得不说是Android开发当中出现率相当高的一个控件，什么资讯列表，联系人列表，消息列表等等，无不有它的身影存在。既然项目中有太多的地方会用到它，传统的代码逻辑我们是怎么使用的呢？每写一个ListView,都要去写一个Adapter类，一个ViewHolder类，这几乎是我们必须要操作的，以致于有太多太多的冗余代码，让我们感到真的不厌其烦，一个两个还可以，十个八个，就真的有点太崩溃了，不仅代码繁琐，还会占用内存，为了解决这样的一个问题，下面就要开始对其抽取优化，代码之间从上到下进行衔接，不要跳过看啊。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "8",
+		"link": "http://blog.csdn.net/ming_147/article/details/62892727"
+	},
+	{
+		"title": "Android开发中那些你费力写的控件，其实原生都有",
+		"time": "2017年03月17日 08:54:44",
+		"desc": "开发当中比如说让你写一个根据用户的输入，去搜索相关内容，你会怎么实现，写一个输入框，监听输入框的内容变化，调起软键盘的搜索或者确认键进行搜索？还有，让你实现一个开关的切换,你会怎么做，写一个layout，一半点击为开，一半点击为关，还是两张图片，点一下开，再点一下关？让你实现一个根据用户的输入弹出一个下拉菜单等等，其实都大可没有必要去自己写，本身Android里都有，下面对各个控件，我会一一举例。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "9",
+		"link": "http://blog.csdn.net/ming_147/article/details/62862083"
+	},
+	{
+		"title": "自定义注解，告别findViewById,你只需要这样做",
+		"time": "2017年03月14日 15:13:52",
+		"desc": "传统的项目中，为了从XML文件找到各个控件，findViewById，是不得不去写的代码，以致于太多的控件，太多的findViewId,使我们的代码变得繁琐，获取，强转，千篇一律的重复着某种机制，其实内心也是蛮崩溃的。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "10",
+		"link": "http://blog.csdn.net/ming_147/article/details/62043642"
+	},
+	{
+		"title": "Android动态来改变App桌面图标",
+		"time": "2017年01月16日 13:25:37",
+		"desc": "时不时的我们就会发现，一些我们常见的应用，比如某宝，某东，在一些特殊的日子中，比如双十一，元旦，为了迎合这样一个日子的气氛，在桌面的应用图标就会发生改变，其实对于这样的一个桌面图标更换，Android中为我们提供了AndroidManifest.xml里的<activity-alias>标签实现方式（更多文章请关注我的微信公众账号，左边二维码）。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "11",
+		"link": "http://blog.csdn.net/ming_147/article/details/54573148"
+	},
+	{
+		"title": "Android开发当中常用的方法集锦",
+		"time": "2017年01月16日 10:31:15",
+		"desc": "每次做一个功能的时候，或多或少都会遇到，很常见的一个方法，就是突然忘记了怎么了去写，不得不又去网上满世界的去找，既耽误了时间，也耽误了精力，今天就为大家集锦了一些我们开发中常用我们却又不常记的方法，更多Android文章，请关注我的微信公众账号（右边最上边二维码）。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "12",
+		"link": "http://blog.csdn.net/ming_147/article/details/54571740"
+	},
+	{
+		"title": "TextView各种滚动动画实现",
+		"time": "2017年01月10日 09:29:11",
+		"desc": "目前公司的项目中，有一个功能，使得一系列的数据每隔3秒依次向上滚动显示，当时做的的时候用到了属性动画，直接写了三个ObjectAnimator,位置分别为当前区域下，当前区域，当前区域上，然后new了一个AnimatorSet，按照顺序依次添加了进去，效果是实现了，但是 发现API14以下的手机还是无法滚动，并且突然觉得这种方法的实现具有很大的局限性，如果是向左，向右，淡入或者其它动画滚动，那么这种方法就黔驴技穷了；相比较来说，今天的这几种动画，代码简单，实现起来就很容易。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "13",
+		"link": "http://blog.csdn.net/ming_147/article/details/54310824"
+	},
+	{
+		"title": "一步步搞定Android行情K线蜡烛图（带十字光标）",
+		"time": "2017年01月10日 09:15:20",
+		"desc": "行情K线图也就是我们常说的蜡烛图，是金融类软件里可以说必不可少的，无论日K, 周K,月K，还是分钟K,准确的来表达个股在一定时间内涨跌走势，K线图有着不可无视的作用，其绘制过程也是彰显一个程序员对自定义控件的熟练程度，尤其是对Canvas的灵活运用，绘线，绘边框，及位置的选取，比例的分配，今天这个Demo,则一步步为你诠释。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "14",
+		"link": "http://blog.csdn.net/ming_147/article/details/54310706"
+	},
+	{
+		"title": "Android60分钟搞定《FlappyBird》飞扬的小鸟游戏",
+		"time": "2017年01月09日 09:33:29",
+		"desc": "自定义控件系列，前前后后分享了三四篇了，其实，在自定义控件的道路中，我们只仅仅迈出了一小步，未来的时间我们仍需走在路上，去探索那些未知的自定义领域。今天，是个周末的时刻，少些烦躁的代码，来一起实现一个有趣的类似FlappyBird小游戏吧；对于FlappyBird这个小游戏，相信在看这篇文章的你并不陌生，其富有挑战又有一丝乐趣，让玩者玩的不亦乐乎，曾经风靡一时，虽已经离发行过去了三年多的时间，但仍能激起我们心中那份玩游戏时的跌宕起伏。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "15",
+		"link": "http://blog.csdn.net/ming_147/article/details/54286066"
+	},
+	{
+		"title": " Android自定义控件之《折线图的绘制》",
+		"time": "2017年01月03日 20:45:24",
+		"desc": "金融软件里的行情分时图，这是我们最常见的折线图，当然了，折线图的用途并不仅仅局限于此，像一般在一定区间内，为了更好的能显示出幅度的变化，那么用折线图来展示无疑是最符合效果的，当然了，网上也有很多的第三方开源，这篇文章呢，对开源的不做过多描述，想要了解请关注后续文章，好了，废话不多说，让我们从0来一步步绘制折线图吧。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "16",
+		"link": "http://blog.csdn.net/ming_147/article/details/53997769"
+	},
+	{
+		"title": "Android自定义控件之《自定义TextView(支持显示图片)》",
+		"time": "2017年01月02日 21:33:19",
+		"desc": "有很多情况下，变态的需求，不得不让我们另辟蹊径，比如说，在一段文字里，愣是要让几处显示成别的颜色，或者字号要比其它文字大，或者小，其实这种情况下实现起来还算简单，只需要用到Html类的fromHtml()方法，加上html标签就可以实现，例如，把“AbnerMing是一个集才华与帅气于一身的帅哥”这句话中的AbnerMing设置成红色，字号稍大些",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "17",
+		"link": "http://blog.csdn.net/ming_147/article/details/53982358"
+	},
+	{
+		"title": "Android阅读Office文档，你想要的and不想要的都在这里",
+		"time": "2016年12月28日 09:16:07",
+		"desc": "说起阅读Office文档，还是不得不羡慕IOS平台，人家只需要使用 WebView 加载网络文件的 Url 地址即可显示，而回头再看看我们Android,就比较苦逼了，“高墙耸立”之下，Google 在国内的访问限制，使本来简单的操作，变得不再简单。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "18",
+		"link": "http://blog.csdn.net/ming_147/article/details/53905526"
+	},
+	{
+		"title": "Android图片加载深度探析Fresco",
+		"time": "2016年12月22日 08:57:42",
+		"desc": "来，做一个小调研，你们的项目中图片加载，使用的是什么？SmartImageView? Image-Loader？Picasso？Glide?还是一些框架中封装的？对于以上的各种图片加载方式，想必大部分人都用过，没用过也听说过，今天咱们主要说的是Fresco。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "19",
+		"link": "http://blog.csdn.net/ming_147/article/details/53808848"
+	},
+	{
+		"title": " Android星级评分条控件RatingBar",
+		"time": "2016年08月24日 14:32:10",
+		"desc": "Android开发中，时不时的就有要实现星星的评分效果，比如某宝，某团，相信大家也都见过，当然了我们可以自己去画，也可以用美工给切的图去实现，其实在Android原生的控件中就可以来实现这样的效果，它就是RatingBar。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "20",
+		"link": "http://blog.csdn.net/ming_147/article/details/52300232"
+	},
+	{
+		"title": "浅谈AsyncTask",
+		"time": "2016年08月17日 17:34:39",
+		"desc": "实话实说，做Android做了这么长时间，AsyncTask这个东西还真没怎么用过，不过面试的时候，有的面试就会拿这个来问，感觉很刁的样子，其实我感觉面试官都不一定懂，这一段时间闲来无事，就特意对AsyncTask做了一个浅显的认知，希望能给大家带来一些了解。",
+		"image": "1",
+		"author": "AbnerMing",
+		"file_id": "21",
+		"link": "http://blog.csdn.net/ming_147/article/details/52232982"
+	}
+
+]

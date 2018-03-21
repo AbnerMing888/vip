@@ -1,0 +1,65 @@
+[{
+	"title": "Spring之旅（一）",
+	"time": "2018年02月02日 18:01:37",
+	"desc": "这一周的时间都在研究JavaWeb应用开发框架，像struts，hibernate，还有今天要写的Spring，虽然有时摸不着头脑，但总体来说，也颇有收获，在工作暂无需求的情况下，去探究些自己未知又迫切想知道的技术，也是蛮好的，起码说自己是感兴趣的，接下来的一段时间，对这些Web框架的学习，我会做一个总结，方便自己温故，也希望能帮助到喜欢这些技术的朋友。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "http://blog.csdn.net/ming_147/article/details/79240654"
+}, {
+	"title": "Jsp，Servlet连接数据库",
+	"time": "2018年01月30日 10:06:34",
+	"desc": "这里我使用的是JDBC连接数据库，需要把JDBC的Jar包放到WEB-INF/lib下",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "http://blog.csdn.net/ming_147/article/details/79202295"
+}, {
+	"title": "JavaWeb框架Struts2.0笔记",
+	"time": "2018年01月26日 10:48:16",
+	"desc": "第一步：依赖我们所必须要的jar包（当前版本号：2.5.14.1 ）：官网下载:http://struts.apache.org/download.cgi;",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "http://blog.csdn.net/ming_147/article/details/79169719"
+}, {
+	"title": "JSP自定义标签",
+	"time": "2018年01月24日 18:00:20",
+	"desc": "说实话，没做过WEB开发，我也不知道自定义标签这一块在开发中是否用的比较多，但我觉得既然有它的存在，那么就一定有它存在的道理，反反复复不知道看了多少遍了，没办法，没有项目实战，只有温故温故再温故，既然复习了，索性就做一个简单的笔记吧。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "http://blog.csdn.net/ming_147/article/details/79152762"
+}, {
+	"title": "浅谈Java中的异常",
+	"time": "2016年08月12日 11:08:37",
+	"desc": "就是程序运行过程中，遇到了问题，这就叫异常。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "http://blog.csdn.net/ming_147/article/details/52189920"
+}, {
+	"title": " jvm是如何处理异常的",
+	"time": "2016年08月12日 10:59:54",
+	"desc": "jvm发现运算是已经违反了数学运算规则,java将这种常见的问题进行描述,并封装成了对象叫做ArithmeticException当除0运算发生后,jvm将该问题打包成了一个异常对象",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "http://blog.csdn.net/ming_147/article/details/52189806"
+}, {
+	"title": "HashSet是如何去重的",
+	"time": "2016年08月12日 10:03:20",
+	"desc": "1.HashSet原理 ◦我们使用Set集合都是需要去掉重复元素的, 如果在存储的时候逐个equals()比较, 效率较低,哈希算法提高了去重复的效率, 降低了使用equals()方法的次数",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "http://blog.csdn.net/ming_147/article/details/52189049"
+}, {
+	"title": "浅谈进程和线程",
+	"time": "2016年08月11日 14:11:12",
+	"desc": "什么是进程？通俗点来说，它就是一个应用，一个程序，比如我们的QQ，微信，等都是一个进程，它是我们的操作系统划分而出的一块内存空间，通常两个进程之间的切换，其开销是很大的，一般一个进程都有1——n个线程。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "http://blog.csdn.net/ming_147/article/details/52182103"
+}]

@@ -1,0 +1,81 @@
+[{
+	"title": "每个Android程序员应该知道的Kotlin",
+	"time": "2017-09-07",
+	"desc": "Android开发者在语言限制方面面临着一个困境。众所周知，目前的Android开发只支持Java 6（语言本身从Java 7开始进行了一些改进），因此我们每天只能使用一种古老的语言来进行开发，这极大地降低了我们的生产力，同时也迫使我们不得不编写大量的样板与脆弱的代码，然而这样的代码是难以阅读和维护的。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000293&idx=2&sn=5122419ddf82a7dc53308671bbb6dc64&scene=19#wechat_redirect"
+}, {
+	"title": "如何看待 Kotlin 成为 Android 官方支持的开发语言？一线开发者这样说",
+	"time": "2017-05-23",
+	"desc": "Google IO 2017 宣布了 Kotlin 会成为 Android 官方开发语言。一时间朋友圈和 Android 圈被各种刷屏。当然我也顺势而为发布了一篇的文章《为什么我要改用Kotlin》，着实狠狠地蹭了一波热度（尽管这样会被鄙视）。眼下 Android 圈已经躁动了，甚至严重到如果对 Kotlin 视而不见就显得自己不像一个合格的 Android 程序员。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=2247483909&idx=1&sn=4c89c29ab3ddbc2191566f5da5c7813a&scene=19#wechat_redirect"
+}, {
+	"title": "如何优雅地使用 Kotlin 开发 Android 应用",
+	"time": "2017-05-31",
+	"desc": "在之前的一篇文章，我们简单的知道了Kotlin这门新语言的优势，也接触了一些常见的语法及其简单的使用，相信你会对它有浓厚的兴趣，暂且理解为对它感兴趣吧，哈哈哈。那么，我们该如何在Android中应用这门新的语言呢？今天的这篇文章带你学习使用Kotlin开发Android应用，并对比我们传统语言Java，让你真真切切的感受到他的美和优雅",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000265&idx=1&sn=42ac4aadfb1d8f1597b129345552e4dd&scene=19#wechat_redirect"
+}, {
+	"title": "第六章·认识Kotlin中的集合泛型与操作符",
+	"time": "2017-08-18",
+	"desc": "所谓泛型：就是允许在定义类、接口、方法时指定类型形参，这个类型形参将在声明变量、创建对象、调用方法时动态地指定(即传入实际的类型参数，也可称为类型实参)。 Kotlin 泛型定义与 Java 类似，但有着更多特性支持。首先，我们来看看集合类中的泛型声明。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000272&idx=7&sn=77692bf6ad57328b2cfd3833e422816f&scene=19#wechat_redirect"
+}, {
+	"title": "第五章·揭开Kotlin中的函数与闭包",
+	"time": "2017-08-18",
+	"desc": "即使 Kotlin 是一门面向对象的编程语言，它也是有函数的概念的——而不像 Java 那样，仅仅有“方法”。回顾一下前面第二章讲述的函数声明语法",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000272&idx=6&sn=6af6ff1c3a8e10cadd2a829c4eb26714&scene=19#wechat_redirect"
+}, {
+	"title": "第四章·那些你不知道的Kotlin 中的类特性(下)",
+	"time": "2017-08-18",
+	"desc": "在 Java 开发的时候，经常会写一大堆的 Utils 类，甚至经常写一些common包，比如著名的 apache-commons系列、Guava等等。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000272&idx=5&sn=3e2d396c571b6a5cba9787e1a756829f&scene=19#wechat_redirect"
+}, {
+	"title": "第四章·那些你不知道的Kotlin 中的类特性(上)",
+	"time": "2017-08-18",
+	"desc": "前面三章的内容是写给希望快速了解 Kotlin 语言的大忙人的。而从本章开始，才会真正讲述 Kotlin 语言的神奇之处。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000272&idx=4&sn=a80387ff634387df4da58f43f0f7d644&scene=19#wechat_redirect"
+}, {
+	"title": "第三章·所谓的混编Kotlin 与 Java 有什么区别",
+	"time": "2017-08-18",
+	"desc": "虽然 Kotlin 的开发很方便，但当你与他人协作时，总会碰到 Java 与 Kotlin 代码共存的代码项目。本章就教你如何优雅的实现 Kotlin 与 Java 混合编程",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000272&idx=3&sn=542ab8553397e3a08cfc97acee97907d&scene=19#wechat_redirect"
+}, {
+	"title": "第二章·Kotlin语法的特性",
+	"time": "2017-08-18",
+	"desc": "Kotlin 程序是什么样子的？很有可能你觉得 Kotlin 语言有点古怪，充满了var field: String这样的语法。然而读完本章后，你将不再对这些语法感到陌生，甚至很可能喜欢上它们。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000272&idx=2&sn=6b0e347334082aabefa8507894e4dbe3&scene=19#wechat_redirect"
+}, {
+	"title": "初识，揭开Kotlin的面纱",
+	"time": "2017-08-18",
+	"desc": "相比于 Java，Kotlin 有着更好的语法结构，安全性和开发工具支持。Kotlin 中没有基础类型，数组是定长的，泛型是安全的，即便运行时也是安全的。此外，该语言支持闭包，还可通过内联进行优化。不过，它不支持检查异常（Checked Exceptions），许多语言设计者认为这是它的瑕疵。不论如何，重要的是 Java 和 Kotlin 之间的互操作性：Kotlin 可以调用 Java，反之亦可。",
+	"image": "1",
+	"author": "AbnerMing",
+	"file_id": "0",
+	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000272&idx=1&sn=004f5a35dac64a9873c6dd79c1d65129&scene=19#wechat_redirect"
+}]
