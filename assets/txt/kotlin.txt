@@ -1,51 +1,51 @@
 [{
-	"title": "每个Android程序员应该知道的Kotlin",
-	"time": "2017-09-07",
-	"desc": "Android开发者在语言限制方面面临着一个困境。众所周知，目前的Android开发只支持Java 6（语言本身从Java 7开始进行了一些改进），因此我们每天只能使用一种古老的语言来进行开发，这极大地降低了我们的生产力，同时也迫使我们不得不编写大量的样板与脆弱的代码，然而这样的代码是难以阅读和维护的。",
+	"title": "《Kotlin进化之路》之【第二章：揭开Kotlin的基础面纱】（六）",
+	"time": "2018年05月04日",
+	"desc": "循环控制流程的基本语法和其它语言也是类似的，有其它语言基础的朋友这一章节也可以选择略过，不过想学习的话也未尝不可，也许说不定有重新的一个认识",
 	"image": "1",
 	"author": "AbnerMing",
 	"file_id": "0",
-	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000293&idx=2&sn=5122419ddf82a7dc53308671bbb6dc64&scene=19#wechat_redirect"
+	"link": "https://blog.csdn.net/ming_147/article/details/80194777"
 }, {
-	"title": "如何看待 Kotlin 成为 Android 官方支持的开发语言？一线开发者这样说",
-	"time": "2017-05-23",
-	"desc": "Google IO 2017 宣布了 Kotlin 会成为 Android 官方开发语言。一时间朋友圈和 Android 圈被各种刷屏。当然我也顺势而为发布了一篇的文章《为什么我要改用Kotlin》，着实狠狠地蹭了一波热度（尽管这样会被鄙视）。眼下 Android 圈已经躁动了，甚至严重到如果对 Kotlin 视而不见就显得自己不像一个合格的 Android 程序员。",
+	"title": "《Kotlin进化之路》之【第二章：揭开Kotlin的基础面纱】（五）",
+	"time": "2018年05月04日",
+	"desc": "对于有Java基础的同学来说，对这两个类再熟悉不过了，不熟悉的同学也没有关系，接下来我也会一点一点的去剖析",
 	"image": "1",
 	"author": "AbnerMing",
 	"file_id": "0",
-	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=2247483909&idx=1&sn=4c89c29ab3ddbc2191566f5da5c7813a&scene=19#wechat_redirect"
+	"link": "https://blog.csdn.net/ming_147/article/details/80194640"
 }, {
-	"title": "如何优雅地使用 Kotlin 开发 Android 应用",
-	"time": "2017-05-31",
-	"desc": "在之前的一篇文章，我们简单的知道了Kotlin这门新语言的优势，也接触了一些常见的语法及其简单的使用，相信你会对它有浓厚的兴趣，暂且理解为对它感兴趣吧，哈哈哈。那么，我们该如何在Android中应用这门新的语言呢？今天的这篇文章带你学习使用Kotlin开发Android应用，并对比我们传统语言Java，让你真真切切的感受到他的美和优雅",
+	"title": "《Kotlin进化之路》之【第二章：揭开Kotlin的基础面纱】（四）",
+	"time": "2018年05月04日",
+	"desc": "字符串是程序开发中最常见的，出现的频率也是最高的，Kotlin中的字符串和Java语言类似，用String来表示字符串",
 	"image": "1",
 	"author": "AbnerMing",
 	"file_id": "0",
-	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000265&idx=1&sn=42ac4aadfb1d8f1597b129345552e4dd&scene=19#wechat_redirect"
+	"link": "https://blog.csdn.net/ming_147/article/details/80194445"
 }, {
-	"title": "第六章·认识Kotlin中的集合泛型与操作符",
-	"time": "2017-08-18",
-	"desc": "所谓泛型：就是允许在定义类、接口、方法时指定类型形参，这个类型形参将在声明变量、创建对象、调用方法时动态地指定(即传入实际的类型参数，也可称为类型实参)。 Kotlin 泛型定义与 Java 类似，但有着更多特性支持。首先，我们来看看集合类中的泛型声明。",
+	"title": "《Kotlin进化之路》之【第二章：揭开Kotlin的基础面纱】（三）",
+	"time": "2018年03月27日",
+	"desc": "算术运算符用在数学表达式中，它们的作用和在数学中的作用一样。下表列出了所有的算术运算符。",
 	"image": "1",
 	"author": "AbnerMing",
 	"file_id": "0",
-	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000272&idx=7&sn=77692bf6ad57328b2cfd3833e422816f&scene=19#wechat_redirect"
+	"link": "https://blog.csdn.net/ming_147/article/details/79709471"
 }, {
-	"title": "第五章·揭开Kotlin中的函数与闭包",
-	"time": "2017-08-18",
-	"desc": "即使 Kotlin 是一门面向对象的编程语言，它也是有函数的概念的——而不像 Java 那样，仅仅有“方法”。回顾一下前面第二章讲述的函数声明语法",
+	"title": "《Kotlin进化之路》之【第二章：揭开Kotlin的基础面纱】（二）",
+	"time": "2018年03月26日",
+	"desc": "在 Kotlin 中，所有变量的成员方法和属性都是一个对象，一些类型是内建的，它们的实现是优化过的，但对用户来说它们就像普通的类一样",
 	"image": "1",
 	"author": "AbnerMing",
 	"file_id": "0",
-	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000272&idx=6&sn=6af6ff1c3a8e10cadd2a829c4eb26714&scene=19#wechat_redirect"
+	"link": "https://blog.csdn.net/ming_147/article/details/79701628"
 }, {
-	"title": "第四章·那些你不知道的Kotlin 中的类特性(下)",
-	"time": "2017-08-18",
-	"desc": "在 Java 开发的时候，经常会写一大堆的 Utils 类，甚至经常写一些common包，比如著名的 apache-commons系列、Guava等等。",
+	"title": "《Kotlin进化之路》之【第二章：揭开Kotlin的基础面纱】（一）",
+	"time": "2018年03月26日",
+	"desc": "通过上一章的学习，是不是已经感受到了Kotlin语言的魅力之处，环境的配置，IDE（开发工具）的选择，至关重要，毕竟工欲善其事必先利其器",
 	"image": "1",
 	"author": "AbnerMing",
 	"file_id": "0",
-	"link": "https://mp.weixin.qq.com/s?__biz=MzI1NTU4MjU3OA==&mid=100000272&idx=5&sn=3e2d396c571b6a5cba9787e1a756829f&scene=19#wechat_redirect"
+	"link": "https://blog.csdn.net/ming_147/article/details/79701585"
 }, {
 	"title": "第四章·那些你不知道的Kotlin 中的类特性(上)",
 	"time": "2017-08-18",
