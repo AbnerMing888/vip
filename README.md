@@ -1,2 +1,2 @@
-# abnerming8.github.io
-这里是李晓明的专属博客
+# https://abnerming888.github.io/index/
+个人github静态博客
