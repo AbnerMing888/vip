@@ -307,7 +307,7 @@ $(function () {
             alert("请输入文件名字");
             return;
         }
-        let file = new File([code], 'a.txt', {type: 'text/plain;charset=utf-8'});
-        saveAs(file, fileName + ".xml");
+        var blob = new Blob([code], {type: "text/plain;charset=utf-8"});
+        saveAs(blob, fileName + ".xml");
     });
 });
