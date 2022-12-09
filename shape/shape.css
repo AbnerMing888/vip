@@ -1,0 +1,123 @@
+body {
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 5%;
+    background-color: #222222;
+}
+
+.shape_left {
+    width: 50%;
+    float: left;
+}
+
+.shape_right {
+    width: 50%;
+    float: left;
+}
+
+.shape_down_load {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.shape_down_load span {
+    background-color: #FFFFFF;
+    color: #222222;
+    border-radius: 10px;
+    padding: 10px 70px;
+    cursor: pointer;
+}
+
+.shape_get_name {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.shape_code {
+    width: 90%;
+    margin-left: 5%;
+    height: 200px;
+    margin-top: 20px;
+    resize: none;
+}
+
+.shape_name_div {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.shape_name_input {
+    width: 70%;
+    height: 30px;
+}
+
+.shape_get_name {
+    margin-left: 5%;
+}
+
+.shape_tag {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.shape_direction {
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.shape_type_div {
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.input_rect {
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.input_rect input {
+    width: 70%;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.shape_submit {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.shape_submit span {
+    cursor: pointer;
+    padding: 10px 70px;
+    border-radius: 10px;
+    color: #222222;
+    background-color: #FFFFFF;
+}
+
+.input_rect3, .input_rect4, .input_rect5, .input_rect_color {
+    display: none;
+}
+
+.input_rect10 {
+    margin-top: 10px;
+}
+
+.input_rect10 input {
+    width: auto;
+    height: 12px;
+}
+
+.shape_effect_div {
+    margin-top: 10px;
+}
+
+.shape_effect {
+    width: 70%;
+    margin-left: 15%;
+    height: 30px;
+}
