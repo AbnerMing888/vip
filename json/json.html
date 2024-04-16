@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鸿蒙json转对象</title>
+    <link rel="stylesheet" href="androidstudio.min.css" type="text/css"/>
+    <link rel="stylesheet" href="json.css" type="text/css"/>
+    <script>if (typeof module === 'object') {
+        window.module = module;
+        module = undefined;
+    }</script>
+    <script src="jquery-2.2.0.min.js"></script>
+    <script src="json.js"></script>
+
+</head>
+<body>
+<div class="json_body">
+    <div class="json_body_left">
+        <div class="json_body_left_top">
+            <textarea placeholder="请输入Json数据……" class="json_content"></textarea>
+        </div>
+    </div>
+    <div class="json_body_center">
+        <div class="json_to_body">
+            <span>转换对象</span>
+        </div>
+    </div>
+    <div class="json_body_right">
+        <div style="padding-top: 5%;height: 100%;">
+        <pre class="json_object">
+           <code class="language-javascript json_code" style="margin-top: -20px;"></code>
+        </pre>
+            <div>
+                <input placeholder="对象名字" value="Test" class="json_class json_name"/>
+                <span class="codeCopy">复制</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="infoDiv">
+
+</div>
+
+<div class="downPlugin">
+    下<br/>
+    载<br/>
+    插<br/>
+    件<br/>
+</div>
+</body>
+<script src="highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script>
+    $(".downPlugin").click(function (){
+        window.open("jar/jar.html")
+    });
+</script>
+</html>

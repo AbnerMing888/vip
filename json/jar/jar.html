@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Harmonylogo.svg">
+    <title>鸿蒙json转对象IDE插件安装</title>
+    <style>
+        body {
+            background-color: #222222;
+        }
+
+        .div_body {
+            width: 70%;
+            margin-left: 15%;
+            color: #FFFFFF;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .user_image {
+            width: 300px;
+            cursor: pointer;
+        }
+
+        .code {
+            background-color: #000000;
+            color: #e8e8e8;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        #enlarged-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(222, 222, 222, 0.5); /* 设置背景透明度为0.5 */
+        }
+
+        #enlarged-image img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: none;
+            max-height: none;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+
+<div class="div_body">
+    <h1>鸿蒙json转对象IDE插件安装</h1>
+    <h2>插件下载</h2>
+    <p>
+        <a href="HarmonyJsonToObject-1.0.jar" target="_blank" style="color: #FFFFFF;">
+            HarmonyJsonToObject-1.0</a>
+    </p>
+    <h2>找到插件安装位置</h2>
+    <p>
+        <img src="jar_001.png" class="user_image"><br/>
+    </p>
+    <h2>点击安装</h2>
+    <p>
+        <img src="jar_002.png" class="user_image"><br/>
+    </p>
+    <h2>在文件中右键即可或快捷键 Ctrl+alt+p</h2>
+    <p>
+        <img src="jar_003.png" class="user_image"><br/>
+    </p>
+    <h2>插件效果展示</h2>
+    <p>
+        <img src="jar_004.png" class="user_image"><br/>
+    </p>
+
+</div>
+
+
+</body>
+<script>
+    var images = document.getElementsByClassName("user_image"); // 获取要操作的图片元素
+
+    for (var i = 0; i < images.length; i++) {
+        images[i].addEventListener('click', function () {
+            // 这里是点击后要执行的操作
+            createEnlargedContainer(this.getAttribute('src'));
+        });
+    }
+
+    // 创建并显示放大后的图片容器
+    function createEnlargedContainer(imageSrc) {
+        var container = document.createElement('div');
+        container.id = "enlarged-image";
+
+        var enlargedImg = document.createElement('img');
+        enlargedImg.src = imageSrc;
+
+        container.appendChild(enlargedImg);
+        document.body.appendChild(container);
+
+        document.getElementById("enlarged-image").addEventListener('click', function () {
+            removeEnlargedContainer();
+        });
+    }
+
+    // 移除放大后的图片容器
+    function removeEnlargedContainer() {
+        var container = document.getElementById("enlarged-image");
+        if (container) {
+            container.parentNode.removeChild(container);
+        }
+    }
+
+
+</script>
+</html>
